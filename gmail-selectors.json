@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "description": "Mattermail Gmail Dynamic Selectors Configuration",
+  "updatedAt": "2026-10-16",
+  "selectors": {
+    "inboxRows": "tr.zA",
+    "subjectContainer": ".y6",
+    "subjectElement": ".bog, .bqe",
+    "subjectTd": "td.xY",
+    "threadSubject": "h2.hP, .ha h2, div[role=\"main\"] h2",
+    "mainContainer": "div[role=\"main\"]",
+    "emailCandidate": ".adn, .h7, div[role=\"listitem\"]",
+    "emailCandidateFilter": ".a3s, .gD, .g3",
+    "emailBody": ".a3s",
+    "emailBodyExpanded": ".a3s, .ii.gt",
+    "emailBodyFallbacks": ".a3s, .ii.gt, .adP, div[dir=\"ltr\"]",
+    "sender": ".gD, span[email]",
+    "recipient": ".g2, .hb, span[email]:not(.gD)",
+    "date": ".g3",
+    "snippet": ".y2, .yj, .mD, span[data-thread-id]",
+    "attachments": ".aZo, [download_url], a[href*=\"disp=attd\"], .aKh",
+    "attachmentName": ".aV3, .aQy, span[title]",
+    "attachmentSize": ".a51, .aV4"
+  }
+}
